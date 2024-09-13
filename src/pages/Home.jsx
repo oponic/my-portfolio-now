@@ -10,11 +10,13 @@ export default function Home() {
 
             <div class="grid grid-cols-2 gap-4">
                 <Card rounded= {true} flat= {false}>
-                    <h1 class="my-3 font-bold">Introducing</h1>
-                    <p class="text-left">
-                        The best coding language
-                        ever exists
-                    </p>
+                    <h1 class="text-3xl">About</h1>
+                    <p>Hello there</p>
+                </Card>
+
+                <Card rounded= {true} flat= {false}>
+                    <h1 class="text-3xl">About</h1>
+                    <p>Hello there</p>
                 </Card>
             </div>
         </div>
