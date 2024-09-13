@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin-bottom: 0;
+  background-color: rgb(200, 200, 200)
+}
+
+p {
+  color: rgb(225, 225, 225)
+}
+
+A:hover {
+  color: rgb(125, 125, 125)
+}
