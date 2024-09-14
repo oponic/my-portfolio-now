@@ -20,9 +20,6 @@ export default function App(props) {
       </header>
 
       <div class="p-4 w-full pt-24">
-        <h1 class="text-gray-100 text-xl bg-red-500 text-center p-4 m-4 rounded-md">
-          This website is still a work in progress
-        </h1>
         {props.children}
       </div>
     </div>
