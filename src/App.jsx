@@ -11,7 +11,7 @@ export default function App(props) {
             <header
             class="p-4 text-xl flex items-center justify-between fixed z-10 bg-[rgba(25,25,25,0.5)] w-full backdrop-blur-sm outline outline-2 outline-[rgb(20,20,20)]">
                 <div class="w-full md:w-5/12 mx-auto flex items-center justify-between">
-                    <div class="flex items-center gap-4 hover:scale-105 duration-300">
+                    <div class="flex items-center gap-4 hover:scale-105 duration-500">
                         <img src={pfp} class="w-9 h-9 rounded-full object-cover outline outline-[rgb(93,173,226)]" alt="luqman profile picture"/>
                         <h1>Luqman</h1>
                     </div>
@@ -40,7 +40,7 @@ export default function App(props) {
                 <div class="w-full md:w-5/12 mx-auto flex items-center justify-between">
                     <a href="https://theluqmn.github.io" target="_blank">
                         <p class="text-sm">
-                            Made by Luq. This is my second website.
+                            Made by Luq. 2nd website, revision 2.
                         </p>
                     </a>
 
@@ -49,7 +49,7 @@ export default function App(props) {
                             <img class="w-5 h-5 invert" src={xIcon} />
                         </a>
                         
-                        <a href="https://github.com/theluqmn/spend-money" target="_blank">
+                        <a href="https://github.com/theluqmn/theluqmn.github.io" target="_blank">
                             <img class="w-5 h-5 invert" src={githubIcon} />
                         </a>
                     </div>

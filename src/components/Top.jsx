@@ -17,19 +17,19 @@ export default function Top() {
 
             <div class="flex flex-row justify-between">
                 <div className="flex flex-row space-x-4 items-center">
-                    <button class="p-2 md:px-4 rounded-md bg-[rgb(20,20,20)]">
+                    <button class="p-2 md:px-4 rounded-md bg-[rgb(20,20,20)] hover:scale-105 duration-300">
                         <p class="md:text-xl text-[rgb(93,173,226)]">
                             About
                         </p>
                     </button>
 
-                    <button class="p-2 md:px-4 rounded-md">
+                    <button class="p-2 md:px-4 rounded-md hover:scale-105 duration-300">
                         <p class="md:text-xl text-[rgb(93,173,226)]">
                             Projects
                         </p>
                     </button>
 
-                    <button class="p-2 md:px-4 rounded-md">
+                    <button class="p-2 md:px-4 rounded-md hover:scale-105 duration-300">
                         <p class="md:text-xl text-[rgb(93,173,226)]">
                             Contact
                         </p>
