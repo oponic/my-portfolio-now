@@ -7,6 +7,7 @@ import App from './App';
 
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 const root = document.getElementById('root');
 
@@ -20,5 +21,6 @@ render(() => (
   <Router root= {App}>
     <Route path="/" component={About} />
     <Route path="/projects" component={Projects} />
+    <Route path="/contact" component={Contact} />
   </Router>
 ), root);
