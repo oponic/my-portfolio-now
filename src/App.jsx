@@ -17,15 +17,15 @@ export default function App(props) {
                     </div>
 
                     <div class="flex items-center gap-4 text-[rgb(225,225,225)]">
-                        <A href="https://x.com/theluqmn">
+                        <A href="https://x.com/theluqmn" target="_blank">
                             <img src={xIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
                         </A>
 
-                        <A href="https://instagram.com/theluqmn">
+                        <A href="https://instagram.com/theluqmn" target="_blank">
                             <img src={instagramIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
                         </A>
 
-                        <A href="https://github.com/theluqmn">
+                        <A href="https://github.com/theluqmn" target="_blank">
                             <img src={githubIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
                         </A>
                     </div>
