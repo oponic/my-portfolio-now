@@ -6,36 +6,35 @@ import instagramIcon from "./assets/icons/instagram.svg"
 import xIcon from "./assets/icons/x.svg"
 
 export default function App(props) {
-  return(
-    <div class="w-full">
-      <header
-      class="p-4 text-xl flex items-center justify-between fixed top-4 left-4 right-4 z-10 bg-[rgba(25,25,25,0.5)] w-auto max-w-[calc(100%-2rem)] lg:w-5/12 lg:left-5/12 lg:-translate-x-5/12 mx-auto rounded-md backdrop-blur-sm outline outline-[rgb(30,30,30)]"
-      >
-        <div class="flex items-center gap-4">
-          <img src={pfp} class="w-12 h-12 rounded-full object-cover" alt="luqman profile picture"/>
-          <div>
-            <h1>Luqman</h1>
-            <h2 class="text-sm text-[rgb(220,220,220)] font-mono">the renaissance man</h2>
-          </div>
+    return(
+        <div class="w-full">
+            <header
+            class="p-4 text-xl flex items-center justify-between fixed z-10 bg-[rgba(25,25,25,0.5)] w-full backdrop-blur-sm">
+                <div class="w-full md:w-5/12 mx-auto flex items-center justify-between">
+                    <div class="flex items-center gap-4 hover:scale-105 duration-300">
+                        <img src={pfp} class="w-9 h-9 rounded-full object-cover outline outline-[rgb(93,173,226)]" alt="luqman profile picture"/>
+                        <h1>Luqman</h1>
+                    </div>
+
+                    <div class="flex items-center gap-4 text-[rgb(225,225,225)]">
+                        <A href="https://github.com/theluqmn">
+                            <img src={githubIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
+                        </A>
+
+                        <A href="https://instagram.com/theluqmn">
+                            <img src={instagramIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
+                        </A>
+
+                        <A href="https://x.com/theluqmn">
+                            <img src={xIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
+                        </A>
+                    </div>
+                </div>
+            </header>
+
+            <div class="p-4 w-full pt-28">
+                {props.children}
+            </div>
         </div>
-        <div class="flex items-center gap-4 text-[rgb(225,225,225)]">
-          <A href="https://github.com/theluqmn">
-            <img src={githubIcon} class="w-6 h-6 invert"/>
-          </A>
-
-          <A href="https://instagram.com/theluqmn">
-            <img src={instagramIcon} class="w-6 h-6 invert"/>
-          </A>
-
-          <A href="https://x.com/theluqmn">
-            <img src={xIcon} class="w-6 h-6 invert"/>
-          </A>
-        </div>
-      </header>
-
-      <div class="p-4 w-full pt-28">
-        {props.children}
-      </div>
-    </div>
-  )
+    )
 }
