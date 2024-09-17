@@ -7,6 +7,7 @@ export default function Top() {
                 <h1 className="text-6xl font-bold bg-gradient-to-r from-[rgb(93,173,226)] to-[rgb(195,155,211)] text-transparent bg-clip-text">
                     The Renaissance Man
                 </h1>
+                
                 <p class="text-3xl">
                     <b>I am the one</b> that does a bit of <u className="text-[rgb(195,155,211)]">everything</u>.
                 </p>

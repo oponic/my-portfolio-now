@@ -47,17 +47,28 @@ export default function Home() {
 
             <div class="space-y-4">
                 <h1 class="text-3xl">
-                    Interests
+                    Interests and Skills
                 </h1>
 
                 <p>Loads of things!</p>
+                
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:text-center">
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
-                        <p>Data Analysis</p>
+                        <p class="text-[rgb(244,208,63)]">
+                            Programming
+                        </p>
                     </div>
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
-                        <p>Economics</p>
+                        <p class="text-[rgb(175,122,197)]">
+                            Data Analysis
+                        </p>
+                    </div>
+
+                    <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
+                        <p class="text-[rgb(93,173,226)]">
+                            Economics
+                        </p>
                     </div>
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
@@ -65,19 +76,23 @@ export default function Home() {
                     </div>
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
-                        <p class="text-[rgb(249,231,159)]">
-                            Programming
+                        <p class="text-[rgb(88,214,141)]">
+                            Finance
                         </p>
                     </div>
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
-                        <p>Finance</p>
-                    </div>
-
-                    <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)]">
-                        <p>Startup Development</p>
+                        <p class="text-[rgb(236,112,99)]">
+                            Startup Development
+                        </p>
                     </div>
                 </div>
+
+                <Card>
+                    <p>
+
+                    </p>
+                </Card>
             </div>
         </div>
     )
