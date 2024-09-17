@@ -1,4 +1,5 @@
 import openIcon from "../assets/icons/open.svg"
+import { A } from "@solidjs/router"
 
 export default function Top(props) {
     return (
@@ -16,29 +17,32 @@ export default function Top(props) {
             <hr className="border-t-2 my-4 border-[rgb(25,25,25)]" />
                 <div class="flex flex-row justify-between">
                     <div className="flex flex-row space-x-4 items-center">
-                        <button
-                        onClick={() => window.location.href = '/'}
+                        <div
                         class={`p-2 md:px-4 rounded-md ${props.page === "about" ? "bg-[rgb(20,20,20)]" : "bg-[rgb(0,0,0)]"} hover:scale-105 duration-300`}>
-                            <p class="md:text-xl text-[rgb(93,173,226)]">
-                                About
-                            </p>
-                        </button>
+                            <A href="/">
+                                <p class="md:text-xl text-[rgb(93,173,226)]">
+                                    About
+                                </p>
+                            </A>
+                        </div>
 
-                        <button
-                        onClick={() => window.location.href = '/projects'}
+                        <div
                         class={`p-2 md:px-4 rounded-md ${props.page === "projects" ? "bg-[rgb(20,20,20)]" : "bg-[rgb(0,0,0)]"} hover:scale-105 duration-300`}>
-                            <p class="md:text-xl text-[rgb(93,173,226)]">
-                                Projects
-                            </p>
-                        </button>
+                            <A href="/projects">
+                                <p class="md:text-xl text-[rgb(93,173,226)]">
+                                    Projects
+                                </p>
+                            </A>
+                        </div>
 
-                        <button
-                        onClick={() => window.location.href = '/contact'}
+                        <div
                         class={`p-2 md:px-4 rounded-md ${props.page === "contact" ? "bg-[rgb(20,20,20)]" : "bg-[rgb(0,0,0)]"} hover:scale-105 duration-300`}>
-                            <p class="md:text-xl text-[rgb(93,173,226)]">
-                                Contact
-                            </p>
-                        </button>
+                            <A href="/contact">
+                                <p class="md:text-xl text-[rgb(93,173,226)]">
+                                    Contact
+                                </p>
+                            </A>
+                        </div>
                     </div>
                     
                     <button
