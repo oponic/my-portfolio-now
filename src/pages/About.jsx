@@ -6,7 +6,7 @@ import { A } from "@solidjs/router"
 export default function Home() {
     return (
         <div class="w-full lg:w-5/12 items-center mx-auto space-y-4">
-            <Top />
+            <Top page="about"/>
 
             <Card rounded={true}>
                 <p class="pb-8">
