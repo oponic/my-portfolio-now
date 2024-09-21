@@ -34,7 +34,7 @@ export default function Projects() {
                             theluqmn.github.io
                         </h1>
 
-                        <img src={PortfolioPicture} class="w-full h-26 rounded-md"/>
+                        <img src={PortfolioPicture} className="w-full h-26 rounded-md outline outline-[rgb(25,25,25)]"/>
 
                         <p>
                             My personal portfolio website made using Solidjs,
@@ -49,7 +49,7 @@ export default function Projects() {
                             F-35C
                         </h1>
 
-                        <img src={F35CPicture} className="w-full h-26 rounded-md"/>
+                        <img src={F35CPicture} className="w-full h-26 rounded-md outline outline-[rgb(25,25,25)]"/>
 
                         <p>
                         Generic, multi-role open-source Discord bot
