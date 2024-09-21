@@ -26,7 +26,7 @@ export default function Projects() {
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="pb-32 grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Card rounded={true}>
                     <div class="space-y-4">
                         <h1 class="text-xl">

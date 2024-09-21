@@ -109,7 +109,7 @@ export default function Home() {
                 <p>
                     Want to see the things I have worked on?
                     Check out my projects 
-                    <A href="https://github.com/theluqmn/theluqmn.github.io" target="_blank" class="text-[rgb(93,173,226)]">
+                    <A href="https://github.com/theluqmn?tab=repositories" target="_blank" class="text-[rgb(93,173,226)]">
                         here
                     </A>.
                 </p>
