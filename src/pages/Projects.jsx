@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import { A } from "@solidjs/router";
 
 import PortfolioPicture from "../assets/portfolio.png"
+import F35CPicture from "../assets/f-35c.png"
 
 export default function Projects() {
     return (
@@ -38,6 +39,21 @@ export default function Projects() {
                         <p>
                             My personal portfolio website made using Solidjs,
                             and hosted with GitHub Pages.
+                        </p>
+                    </div>
+                </Card>
+
+                <Card rounded={true}>
+                    <div class="space-y-4">
+                        <h1 class="text-xl">
+                            F-35C
+                        </h1>
+
+                        <img src={F35CPicture} className="w-full h-26 rounded-md"/>
+
+                        <p>
+                        Generic, multi-role open-source Discord bot
+                        designed for you to self-host and use as a template.
                         </p>
                     </div>
                 </Card>
