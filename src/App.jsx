@@ -13,19 +13,9 @@ export default function App(props) {
                 <div class="w-full md:w-5/12 mx-auto flex items-center justify-between">
                     <div class="flex items-center gap-4 hover:scale-105 duration-500">
                         <img src={pfp} class="w-9 h-9 rounded-full object-cover outline outline-[rgb(93,173,226)]" alt="luqman profile picture"/>
-                        <h1>Luqman</h1>
+                        <h1>jack</h1>
                     </div>
-
-                    <div class="flex items-center gap-4 text-[rgb(225,225,225)]">
-                        <A href="https://x.com/theluqmn" target="_blank">
-                            <img src={xIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
-                        </A>
-
-                        <A href="https://instagram.com/theluqmn" target="_blank">
-                            <img src={instagramIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
-                        </A>
-
-                        <A href="https://github.com/theluqmn" target="_blank">
+                        <A href="https://github.com/oponic" target="_blank">
                             <img src={githubIcon} class="w-6 h-6 invert hover:scale-110 duration-300"/>
                         </A>
                     </div>
@@ -40,19 +30,9 @@ export default function App(props) {
                 <div class="w-full md:w-5/12 mx-auto flex items-center justify-between">
                     <a href="https://theluqmn.github.io" target="_blank">
                         <p class="text-sm">
-                            Made by Luq. 2nd website, revision 2.
+                            Made by Luq. Edited by me, because I was too lazy to make my own
                         </p>
                     </a>
-
-                    <div class="flex items-center space-x-4">
-                        <a href="https://x.com/theluqmn" target="_blank">
-                            <img class="w-5 h-5 invert" src={xIcon} />
-                        </a>
-                        
-                        <a href="https://github.com/theluqmn/theluqmn.github.io" target="_blank">
-                            <img class="w-5 h-5 invert" src={githubIcon} />
-                        </a>
-                    </div>
                 </div>
             </footer>
         </div>
