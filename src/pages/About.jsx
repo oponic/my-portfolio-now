@@ -10,13 +10,13 @@ export default function Home() {
 
             <Card rounded={true}>
                 <p class="pb-8">
-                    Howdy, I am Luqman - also goes by Luq,
-                    a Malaysian software engineer, business analyst, and student.
+                    ello there, im jack - also goes by opo,
+                    a Filipino software engineer, and student.
                     Currently attending high school.
                 </p>
 
                 <p>
-                    The Renaissance Man? That is how I describe myself.
+                    im an insane wrongful man, thats how I see myself. but im me
                 </p>
             </Card>
 
@@ -28,7 +28,7 @@ export default function Home() {
                         </p>
 
                         <h1 class="text-xl">
-                            Kuala Lumpur
+                            Bukidnon
                         </h1>
                     </div>
                 </Card>
@@ -63,7 +63,7 @@ export default function Home() {
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)] hover:scale-105 duration-500">
                         <p class="text-[rgb(175,122,197)]">
-                            Data Analysis
+                            AI
                         </p>
                     </div>
 
@@ -75,7 +75,7 @@ export default function Home() {
 
                     <div class="p-2 rounded-md text-xl outline outline-2 outline-[rgb(20,20,20)] hover:scale-105 duration-500">
                         <p>
-                            Semiconductors
+                            Gaming
                         </p>
                     </div>
 
@@ -100,16 +100,16 @@ export default function Home() {
                     </p>
 
                     <p>
-                        Most of my skills are self-taught, assisted by online resources and a few contacts.
+                        Most of my skills are self-taught, assisted by online resources, and trial and error.
                         My skillset is designed to assist me with becoming a 
-                        <u class="bg-gradient-to-r from-[rgb(93,173,226)] to-[rgb(195,155,211)] text-transparent bg-clip-text">different-breed of entrepreneur</u>.
+                        <u class="bg-gradient-to-r from-[rgb(93,173,226)] to-[rgb(195,155,211)] text-transparent bg-clip-text">important person</u>.
                     </p>
                 </Card>
 
                 <p>
                     Want to see the things I have worked on?
                     Check out my projects 
-                    <A href="https://github.com/theluqmn?tab=repositories" target="_blank" class="text-[rgb(93,173,226)]">
+                    <A href="https://github.com/oponic?tab=repositories" target="_blank" class="text-[rgb(93,173,226)]">
                         here
                     </A>.
                 </p>
@@ -132,13 +132,12 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                To love, beloved, always be the best version of myself,
-                                and <b>serve god</b>. Live in the moment.
+                                To not have a care in life, to live without fear 
                             </p>
 
                             <p>
-                                Get married, have kids, visit a couple countries, befriend
-                                some cool and inspiring people that I stumble along the way!
+                                Get married, have kids, visit a couple countries, commit a couple of felonies, and befriend
+                                some cool people that share similar goals to me.
                             </p>
                         </div>
                     </Card>
@@ -150,14 +149,11 @@ export default function Home() {
                             </h1>
 
                             <p>
-                                Locate opportunities and problems, solve them, make some money, repeat.
+                                Have the ability to afford Apple products.
                             </p>
                             
                             <p>
-                                Start a few companies that is listed in the Fortune 500.
-                                Get on the top 10 of the world's richest people. Countless of people
-                                wants to be rich, but I want to be rich and have a purpose.
-                                Be resourceful so I can help out others.
+                                Big company. Big rich. Important person.
                             </p>
                         </div>
                     </Card>
