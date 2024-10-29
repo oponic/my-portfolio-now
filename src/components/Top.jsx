@@ -6,11 +6,11 @@ export default function Top(props) {
         <div>
             <div class="pt-32 pb-32">
                 <h1 className="text-6xl font-bold bg-gradient-to-r from-[rgb(93,173,226)] to-[rgb(195,155,211)] text-transparent bg-clip-text">
-                    The Renaissance Man
+                    Human (or not)
                 </h1>
                 
                 <p class="text-3xl">
-                    <b>I am the one</b> that does a bit of <u className="text-[rgb(195,155,211)]">everything</u>.
+                    <b>I am</b> not a <u className="text-[rgb(195,155,211)]">good person</u>.
                 </p>
             </div>
 
