@@ -11,13 +11,12 @@ export default function Projects() {
                 <Card rounded={true}>
                     <p class="pb-8">
                         You can always reach me by sending a <u>direct message</u> to my 
-                        <A href="https://instagram.com/theluqmn" target="_blank" class="text-[rgb(93,173,226)]">instagram</A> or 
-                        <A href="https://x.com/theluqmn" target="_blank" class="text-[rgb(93,173,226)]">X (formerly Twitter)</A>.
+                        <A href="https://discord.com/invite/wwbrJPKQ" target="_blank" class="text-[rgb(93,173,226)]">discord</A> or 
+                        <A href="https://www.reddit.com/u/thesstteam/" target="_blank" class="text-[rgb(93,173,226)]">reddit</A>.
                     </p>
 
                     <p>
-                        Might need to wait a while though, I am active once in a while on my public
-                        accounts but not everyday.
+                        I usually answer within 2-3 hours.
                     </p>
                 </Card>
             </div>
