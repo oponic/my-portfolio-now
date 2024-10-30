@@ -25,7 +25,6 @@ export default function Projects() {
                     </A>.
                 </p>
             </div>
-            </div>
         </div>
     )
 }
